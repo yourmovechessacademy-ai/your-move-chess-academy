@@ -2,9 +2,9 @@
   "name": "your-move-chess-academy",
   "private": true,
   "scripts": {
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "dev": "next dev"
+    "start": "next start"
   },
   "dependencies": {
     "next": "15.0.0",
@@ -12,5 +12,10 @@
     "react-dom": "18.2.0",
     "framer-motion": "latest",
     "lucide-react": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/react": "^18.3.3",
+    "@types/node": "^22.10.1"
   }
 }
